@@ -49,6 +49,7 @@
 	/*background-image: url(/assets/img/white.jpg);*/
 	background-size: cover;
 	height: 100%;
+	padding: 10px;
 }
 .container h3{
 	font-size: 32pt;
