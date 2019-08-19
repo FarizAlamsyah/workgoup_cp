@@ -11,10 +11,9 @@
 				<h1><img class="imgtitle" src="assets/img/intel.png">COMPANY&copy;</h1>
 			<div class="stripline"></div>
 			<div class="nav">
-				  <a class="tablink" href="/home">Home</a>
-				  <a class="tablink" href="/home/news">News</a>
-				  <a class="tablink" href="/home/contact">Contact</a>
-				  <a class="tablink" href="/home/about">About</a>
+				  <a class="tablink" href="/news">News</a>
+				  <a class="tablink" href="/contact">Contact</a>
+				  <a class="tablink" href="/about">About</a>
 			</div>
 		</div>
 			<div class="stripline"></div>

@@ -11,15 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/home','Comp1Controller@index');
+Route::get('/','Comp1Controller@index');
 
-Route::get('home/news','Comp1Controller@news');
-Route::get('home/contact','Comp1Controller@contact');
-Route::get('home/about','Comp1Controller@about');
+Route::get('/news','Comp1Controller@news');
+Route::get('/contact','Comp1Controller@contact');
+Route::get('/about','Comp1Controller@about');
 
 
 // // tambah

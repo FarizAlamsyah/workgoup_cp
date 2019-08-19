@@ -8,5 +8,3 @@
 <p>Ini Adalah Halaman News</p>
 
 @endsection
-
-<link rel="stylesheet" type="text/css" href="assets/css/index.css">
