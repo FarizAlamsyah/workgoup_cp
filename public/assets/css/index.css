@@ -5,11 +5,13 @@
 }
 .title h1{
 	font-size: 30pt;
-	color: silver;
 	font-family: Arial;
-	/*background: #1a1c21;*/
 	text-align:  right;
-	padding: 20px;
+	padding: 15px;
+}
+.title h1 a{
+	text-decoration: none;
+	color: silver;
 }
  .header{
  	height: 10%;
@@ -26,8 +28,6 @@
 	height: 10%;
 	width: 100%;
   	margin: 0;
-/*  	padding-left: 10px;
-  	padding-right: 10px;*/
   	font-size: 20pt;
   	font-family: Arial;
   	text-decoration: none;
@@ -46,17 +46,33 @@
 	font-size: 15pt;
 }
 .container{
-	/*background-image: url(/assets/img/white.jpg);*/
-	background-size: cover;
-	height: 100%;
-	padding: 10px;
+	height: 1000px;
+	padding: 12px;
+	text-align: center;
+	float: right;
+	width: 80.91%;
+	background-color: blue;
+
 }
-.container h3{
+.container h2{
 	font-size: 32pt;
+	font-family: Arial;
 }
 .container p {
-	font-family: Roboto;
+	font-family: Arial;
+	font-size: 12pt;
 
+}
+.profile{
+	float: left;
+	width: 15%;
+	background-color: red;
+	padding: 12px;
+}
+.strip{
+	background-color: green;
+	width: 1px;
+	height: 1px;
 }
 
 .imgtitle{
@@ -65,14 +81,4 @@
 	float: left;
 }
 
-/*.tablinks{
-	background-color: transparent;
-	float: left;
-	border : none;
-	outline: none;
-	cursor: pointer;
-	padding : 14px 16px;
-	transition: .3s;
-	padding-left: 50px;
-	padding-right: 10px;
-}*/
+
