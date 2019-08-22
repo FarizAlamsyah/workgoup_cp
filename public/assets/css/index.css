@@ -46,7 +46,7 @@
 	font-size: 15pt;
 }
 .container{
-	height: 1000px;
+	height: 450px;
 	padding: 12px;
 	text-align: center;
 	float: right;
@@ -68,17 +68,23 @@
 	width: 15%;
 	background-color: red;
 	padding: 12px;
+	height: 450px;
+	font-family: Arial;
 }
 .strip{
-	background-color: green;
 	width: 1px;
-	height: 1px;
 }
-
 .imgtitle{
 	width: 5%;
 	height: 5%;
 	float: left;
 }
 
-
+.tablink:hover{
+	background: black;
+	padding-top: 6px;
+	color: white;
+}
+h1 a:hover{
+	color: blue;
+}

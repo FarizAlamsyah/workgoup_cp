@@ -20,7 +20,9 @@
 			<div class="stripline"></div>
 		</div>
 		<div class="profile">
-			<p>adasdasdasdasdasds</p>
+			<h2>Profile</h2>
+			<div class="stripline"></div>
+
 			<div class="strip"></div>
 		</div>
 
