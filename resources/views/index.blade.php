@@ -15,6 +15,7 @@
 				  <a class="tablink" href="/news">News</a>
 				  <a class="tablink" href="/contact">Contact</a>
 				  <a class="tablink" href="/about">About</a>
+				  <a class="tablink" href="/member">Member</a>
 			</div>
 		</div>
 			<div class="stripline"></div>
