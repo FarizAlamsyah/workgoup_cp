@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class Comp1Controller extends Controller
 {
+    
     public function index()
     {
     	$users = DB::table('webs')->get();

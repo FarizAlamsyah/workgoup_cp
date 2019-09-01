@@ -32,3 +32,6 @@ Route::get('/about','Comp1Controller@about');
 
 // // hapus
 // Route::get('/home/hapus/{id}','Comp1Controller@hapus');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
