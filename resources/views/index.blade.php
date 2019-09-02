@@ -20,13 +20,14 @@
 		</div>
 			<div class="stripline"></div>
 		</div>
-		<div class="container">	
-			{{-- ini judul blog --}}
-        	<h2>@yield('halaman')</h2>
-        	{{-- ini kontent --}}
-        	<p>@yield('kontent')</p>
-		</div>
-
+		<center>
+			<div class="container">	
+				{{-- ini judul blog --}}
+	        	<h2>@yield('halaman')</h2>
+	        	{{-- ini kontent --}}
+	        	<p>@yield('kontent')</p>
+			</div>
+		</center>
 	</body>
 </html>
 
