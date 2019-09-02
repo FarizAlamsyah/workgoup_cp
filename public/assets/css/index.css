@@ -63,7 +63,7 @@
 	font-size: 12pt;
 
 }
-.profile{
+/* .profile{ 
 	float: left;
 	width: 15%;
 	background-color:
@@ -71,6 +71,7 @@
 	height: 450px;
 	font-family: Arial;
 }
+*/
 .strip{
 	width: 1px;
 }
@@ -87,4 +88,20 @@
 }
 h1 a:hover{
 	color: blue;
+}
+
+.section-heading
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.btnbtn-xl
+{
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+
+	background-color: aqua;
+	bord
 }

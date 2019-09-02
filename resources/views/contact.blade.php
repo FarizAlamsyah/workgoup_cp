@@ -40,7 +40,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Kirim Pesan</button>
+                                <button type="submit" class="btnbtn-xl">Kirim Pesan</button>
                             </div>
                         </div>
                     </form>

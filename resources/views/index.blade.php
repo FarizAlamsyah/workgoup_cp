@@ -15,17 +15,12 @@
 				  <a class="tablink" href="/news">News</a>
 				  <a class="tablink" href="/contact">Contact</a>
 				  <a class="tablink" href="/about">About</a>
-				  <a class="tablink" href="/member">Member</a>
+				  <a class="tablink" href="/member">Member</a> 
 			</div>
 		</div>
 			<div class="stripline"></div>
 		</div>
-		<div class="profile">
-			<h2>Profile</h2>
-			<div class="stripline"></div>
-
-			<div class="strip"></div>
-		</div>
+		
 
 		<div class="container">	
 			{{-- ini judul blog --}}
