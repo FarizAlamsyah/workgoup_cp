@@ -1,7 +1,7 @@
 {{-- untuk menghubungkan template index --}}
 @extends('index')
 {{-- ini judul halaman --}}
-@section('halaman',)
+@section('halaman')
 {{-- ini isi kontent --}}
 @section('kontent')
 

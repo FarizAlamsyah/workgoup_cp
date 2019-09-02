@@ -20,8 +20,6 @@
 		</div>
 			<div class="stripline"></div>
 		</div>
-		
-
 		<div class="container">	
 			{{-- ini judul blog --}}
         	<h2>@yield('halaman')</h2>
