@@ -74,8 +74,9 @@ body{
 
 .tablink:hover{
 	background: black;
-	padding-top: 6px;
+	padding-top: 5px;
 	color: white;
+	padding-bottom: 3px;
 }
 h1 a:hover{
 	color: blue;
