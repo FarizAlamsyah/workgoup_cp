@@ -16,4 +16,10 @@ function openTab(evt, tabName) {
 
 	document.getElementById(tabName).style.display = "block";
 	evt.currentTarget.className += " active";
+
+	<script>
+		alert("selamat datang bucin")
+		</script>
+
+		
 }

@@ -22,16 +22,14 @@ Route::get('/contact','Comp1Controller@contact');
 Route::get('/about','Comp1Controller@about');
 
 
-// // tambah
-// Route::get('/home/tambah','Comp1Controller@tambah');
-// Route::post('/home/protambah','Comp1Controller@protambah');
 
-// // update
-// Route::get('/home/edit/{id}','Comp1Controller@edit');
-// Route::post('/home/updated','Comp1Controller@updated');
-
-// // hapus
-// Route::get('/home/hapus/{id}','Comp1Controller@hapus');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//backend
+
+Route::get('/utama', 'Companycontroller@index')->name('index');
+Route::get('/create', 'Companycontroller@create')->name('create');
+Route::post('/store', 'Companycontroller@store')->name('store');
+Route::get('/show', 'Companycontroller@show')->name('show');
+Route::get('/update', 'Companycontroller@update')->name('update');
+Route::get('/destroy', 'Companycontroller@destroy')->name('destroy');

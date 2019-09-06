@@ -40,7 +40,12 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btnbtn-xl">Kirim Pesan</button>
+                                <button  type="submit" class="btnbtn-xl">Kirim Pesan</button>
+                                <script>
+                                function redirect(url){
+                                    location.href=url;
+                                }
+                                </script>
                             </div>
                         </div>
                     </form>
