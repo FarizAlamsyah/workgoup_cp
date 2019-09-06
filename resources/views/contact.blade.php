@@ -1,10 +1,11 @@
 {{-- untuk menghubungkan template index --}}
 @extends('index')
 {{-- ini judul halaman --}}
-@section('halaman',)
+@section('halaman')
 {{-- ini isi kontent --}}
 @section('kontent')
 
+<<<<<<< HEAD
 <section id="contact">
         <div class="container">
             <div class="row">
@@ -53,6 +54,18 @@
             </div>
         </div>
     </section>
+=======
+<div class="contact">
+    <h1>HUBUNGI KAMI</h1><br>
+    <form method="POST">
+        <input type="text" name="name" placeholder="Name"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <input type="text" name="phone" placeholder="No.Phone"><br>
+        <textarea name="alamat" placeholder="Alamat"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+>>>>>>> 255acd5b79d73d97341365e9f5e2c0a059cbb07d
 
 @endsection
 

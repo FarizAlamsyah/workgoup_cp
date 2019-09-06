@@ -20,6 +20,7 @@
 		</div>
 			<div class="stripline"></div>
 		</div>
+<<<<<<< HEAD
 
 		<div class="container">	
 			{{-- ini judul blog --}}
@@ -30,6 +31,16 @@
 
 		
 
+=======
+		<center>
+			<div class="container">	
+				{{-- ini judul blog --}}
+	        	<h2>@yield('halaman')</h2>
+	        	{{-- ini kontent --}}
+	        	<p>@yield('kontent')</p>
+			</div>
+		</center>
+>>>>>>> 255acd5b79d73d97341365e9f5e2c0a059cbb07d
 	</body>
 </html>
 
