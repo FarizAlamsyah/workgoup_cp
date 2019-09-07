@@ -1,25 +1,8 @@
-function openTab(evt, tabName) {
-	var i, tabcontent, tablinks;
+// switch background
+let body = document.querySelector('body');
+let button = document.querySelector('.button');
 
-	tabcontent = document.getElementsByClassName("tabcontent");
-
-	for (var i = 0; i < tabcontent.length; i++){
-		tabcontent[i].style.display = "none";
-	}
-
-	tablinks = document.getElementsByClassName("tablinks");
-
-	for (var i = 0; i < tablinks.length; i++){
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-
-	}
-
-	document.getElementById(tabName).style.display = "block";
-	evt.currentTarget.className += " active";
-
-	<script>
-		alert("selamat datang bucin")
-		</script>
-
-		
-}
+button.addEventListener('click', e => {
+	body.classList.toggle('switch')
+})
+// /switch background

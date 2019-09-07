@@ -2,28 +2,53 @@
 	padding: 0;
 	margin: 0;
 }
+
 body{
-	background-color: Black;
+	background-color: white;
+	color: black;
+}
+.switch{
+	background-color: #345955;
+	color: white;
+}
+.button{
+	background-color: #1a1c21;
+	border: 1;
+	color: white;
+	font-size: 11pt;
+	float: right;
+	padding: 7px 5px 4px 4px;
+	border-color: #559e97;
+}
+.button:hover{
+	background-color: #559e97;
+}
+
+.title{
+	background-color: #345955;
 }
 .title h1{
-	font-size: 30pt;
-	font-family: Arial;
-	text-align:  right;
+	font-size: 28pt;
+	font-family: Calibri;
 	padding: 15px;
+	text-align: right;
 }
 .title h1 a{
 	text-decoration: none;
 	color: silver;
 }
+.title h1:hover{
+	background-image: url(https://media.giphy.com/media/3ohs7N5jy7ox37AbQc/giphy.gif);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
  .header{
  	height: 10%;
  }
- .table{
- 	padding-top: 10%;	
- }
+
 .stripline{
 	height: 3px;
-	background-color: green;
+	background-color: #77bfb8;
 }
 .nav{
 	background-color: #1a1c21;;
@@ -33,34 +58,24 @@ body{
   	font-size: 20pt;
   	font-family: Arial;
   	text-decoration: none;
-  	text-align: center;
+  	/*padding: 2px 2px 2px 2px;*/
   	color: #fff;
 }
 .nav a{
-	padding-left: 50px;
-	padding-right: 50px;
+	
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
 .tablink{
 	text-decoration: none;
 	color: #e0fffb;
-	font-weight: bold;
 	font-size: 15pt;
 }
 .container{
 	height: 450px;
-<<<<<<< HEAD
-	padding: 12px;
-	text-align: center;
-	float: right;
-	width: 100%;
-	background-color: 
-
-=======
 	padding: 40px;
 	width: 600px;
-	color: silver;
->>>>>>> 255acd5b79d73d97341365e9f5e2c0a059cbb07d
 }
 .container h2{
 	font-size: 32pt;
@@ -82,83 +97,7 @@ body{
 }
 
 .tablink:hover{
-	background: black;
-	padding-top: 5px;
-	color: white;
-	padding-bottom: 3px;
+	color: #559e97;
+	text-shadowalign: center;
+	border-bottom: 2px solid #345955;
 }
-h1 a:hover{
-	color: blue;
-}
-
-.contact h1 {
-	text-align: center;
-	font-weight: bold;
-	font-size: 36pt
-}
-.contact form{
-	border: 5px solid green;
-	padding: 20px;
-	margin-bottom: 50px;
-	border-radius: 20px;
-	background-color: black;
-}
-
-.contact form input{
-	width: 350px;
-	height: 30px;
-	margin: 10px 0px 5px 0px;
-	border-radius: 20px;
-	text-align: center;
-	border-color: green;
-	outline: none;
-	border: 2px solid green;
-	background-color: black;
-	font-family: Arial;
-	font-weight: bold;
-	color: white;
-}
-.contact form input:hover{
-	cursor: text;
-	background-color: green;
-	color: black;
-}
-
-.contact form textarea{
-	width: 350px;
-	height: 100px;
-	margin: 10px 0px 5px 0px;
-	border-radius: 20px;
-	text-align: center;
-	padding-top: 10%;
-	border: 2px solid green;
-	background-color: black;
-	font-family: Arial;
-	font-weight: bold;
-	color: white;
-}
-.contact form textarea:hover{
-	cursor: text;
-	background-color: green;
-	color: black;
-}
-
-<<<<<<< HEAD
-	background-color: aqua;
-}
-=======
-.contact form button{
-	outline: none;
-	width: 200px;
-	height: 40px;
-	border: 2px solid green;
-	background-color: black;
-	color: silver;
-	border-radius: 20px;
-	margin:30px;
-}
-.contact form button:hover{
-	background-color: green;
-	cursor: pointer;
-}
->>>>>>> 255acd5b79d73d97341365e9f5e2c0a059cbb07d

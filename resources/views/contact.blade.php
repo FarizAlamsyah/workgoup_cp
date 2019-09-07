@@ -5,67 +5,84 @@
 {{-- ini isi kontent --}}
 @section('kontent')
 
-<<<<<<< HEAD
-<section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Hubungi Kami</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nama *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="No Telp *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Pesan *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button  type="submit" class="btnbtn-xl">Kirim Pesan</button>
-                                <script>
-                                function redirect(url){
-                                    location.href=url;
-                                }
-                                </script>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-=======
 <div class="contact">
     <h1>HUBUNGI KAMI</h1><br>
     <form method="POST">
-        <input type="text" name="name" placeholder="Name"><br>
-        <input type="email" name="email" placeholder="Email"><br>
-        <input type="text" name="phone" placeholder="No.Phone"><br>
-        <textarea name="alamat" placeholder="Alamat"></textarea><br>
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{1-5}" name="phone" placeholder="telp : xxxx-xxxx-xxxx">
+        
+        <textarea name="alamat" placeholder="Alamat"></textarea>
         <button type="submit">Submit</button>
     </form>
 </div>
->>>>>>> 255acd5b79d73d97341365e9f5e2c0a059cbb07d
+
+<style>
+	.contact h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 32pt;
+}
+.contact form{
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 3px solid #8cadaa;
+	border-radius: 30px;
+	background-color: #89c9c3;
+}
+
+.contact form input{
+	width: 350px;
+	height: 30px;
+	margin: 10px 0px 5px 0px;
+	border-radius: 20px;
+	text-align: center;
+	outline: none;
+	border: 2px solid #5da8a1;
+	background-color: #8cadaa;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+}
+.contact form input:hover{
+	cursor: text;
+	background-color: #5da8a1;
+	color: black;
+}
+
+.contact form textarea{
+	width: 350px;
+	height: 100px;
+	margin: 10px 0px 10px 0px;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 10%;
+	border: 3px solid #5da8a1;
+	background-color: #8cadaa;
+	font-family: Calibri;
+	font-weight: bold;
+}
+.contact form textarea:hover{
+	cursor: text;
+	background-color: #5da8a1;
+	color: black;
+}
+
+.contact form button{
+	outline: none;
+	width: 200px;
+	height: 40px;
+	border: 2px solid #5da8a1;
+	background-color: #8cadaa;
+	border-radius: 20px;
+	margin:30px;
+	color: Grey;
+}
+.contact form button:hover{
+	background-color: #5da8a1;
+	cursor: pointer;
+}
+</style>
 
 @endsection
 
