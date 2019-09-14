@@ -4,12 +4,16 @@
 @section('halaman')
 {{-- ini isi kontent --}}
 @section('kontent')
+
 <div class="cont">
 	<h1>ABOUT <span>US</span></h1>
 	<h1>& WE ARE <span>COMPANY</span></h1>
 </div>
 
 <style>
+	.cont{
+		color: silver;
+	}
 	.cont h1{
 		position: relative;
 		overflow: hidden;
@@ -34,7 +38,7 @@
 		height: 100%;
 		top: 0;
 		right: 0;
-		background-color: white;
+		background-color: #1a1c21;
 		animation: word 1.5s cubic-bezier(.53,0,.18,.01) forwards;
 	}
 

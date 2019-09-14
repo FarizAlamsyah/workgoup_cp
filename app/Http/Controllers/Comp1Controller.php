@@ -16,6 +16,8 @@ class Comp1Controller extends Controller
     {
     	$users = DB::table('webs')->get();
     	return view('index',['webs'=>$users]);
+
+        
     }
 
     public function news()
@@ -29,6 +31,10 @@ class Comp1Controller extends Controller
     public function about()
     {
         return view('about');
+    }
+    public function member()
+    {
+        return view('member');
     }
 
     // public function tambah()

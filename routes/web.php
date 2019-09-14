@@ -20,6 +20,7 @@ Route::get('/','Comp1Controller@index');
 Route::get('/news','Comp1Controller@news');
 Route::get('/contact','Comp1Controller@contact');
 Route::get('/about','Comp1Controller@about');
+Route::get('/member','Comp1Controller@member');
 
 
 

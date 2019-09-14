@@ -4,54 +4,40 @@
 }
 
 body{
-	background-color: white;
-	color: black;
+	background-color: #1a1c21;
+	color: white;
 }
 .switch{
-	background-color: #345955;
+	background-color: black;
 	color: white;
 }
 .button{
 	background-color: #1a1c21;
-	border: 1;
 	color: white;
 	font-size: 11pt;
 	float: right;
-	padding: 7px 5px 4px 4px;
-	border-color: #559e97;
+	padding: 7px 5px 8px 4px;
+	border: 0;
 }
 .button:hover{
-	background-color: #559e97;
+	background-color: #00faac;
 }
 
 .title{
-	background-color: #345955;
+	background-color: black;
 }
-.title h1{
-	font-size: 28pt;
-	font-family: Calibri;
-	padding: 15px;
-	text-align: right;
-}
-.title h1 a{
-	text-decoration: none;
-	color: silver;
-}
-.title h1:hover{
-	background-image: url(https://media.giphy.com/media/3ohs7N5jy7ox37AbQc/giphy.gif);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+
 }
  .header{
- 	height: 10%;
+ 	height: 20%;
  }
 
 .stripline{
 	height: 3px;
-	background-color: #77bfb8;
+	background-color: #00faac;
 }
 .nav{
-	background-color: #1a1c21;;
+	background-color: #1a1c21;
 	height: 10%;
 	width: 100%;
   	margin: 0;
@@ -70,7 +56,7 @@ body{
 .tablink{
 	text-decoration: none;
 	color: #e0fffb;
-	font-size: 15pt;
+	font-size: 15pt;);
 }
 .container{
 	height: 450px;
@@ -90,14 +76,41 @@ body{
 .strip{
 	width: 1px;
 }
-.imgtitle{
-	width: 5%;
-	height: 5%;
-	float: left;
-}
 
 .tablink:hover{
 	color: #559e97;
 	text-shadowalign: center;
 	border-bottom: 2px solid #345955;
 }
+
+.svg-wrap{
+	width: 350px;
+	height: 70px;padding: 5px;
+}
+.box{
+	stroke-dasharray: 100 800;
+	stroke-dashoffset: -670;
+	stroke: #ff0000;
+	stroke-width: 10px;
+	transition: all ease-in-out 1.5s;
+}
+.text{
+	position: relative;
+	top: -60px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	color: silver	;
+}
+.text-hover{
+	transition: all ease-in-out 1.5s;
+}
+.svg-wrap:hover .box{
+	stroke-dashoffset: 0;
+	stroke-dasharray: 1000;
+	stroke-width: 7px;
+	stroke: #00faac;
+}
+.svg-wrap:hover .text-hover{
+	margin-left: 15px;
+}
+
